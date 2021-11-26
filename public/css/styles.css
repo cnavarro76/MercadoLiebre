@@ -248,10 +248,19 @@ footer div i:hover  {
 
     header nav {
         display: block;
+        display: flex;
+        justify-content: space-around;
+
+
     }
 
-    header nav .loginbar li { display: inline }
-    header nav .navbar li { display: inline }
+    header nav .loginbar li { 
+        display: inline 
+        
+    }
+    header nav .navbar li { 
+        display: inline 
+    }
     
     main section div.products article{
         width: 45%;
